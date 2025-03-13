@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceInfo = () => {
   return (
-    <div className="absolute priceInfo right-20 top-[16.5rem] bg-white  font-Inter flex flex-col w-[26.5rem] border-[1px] border-[#E9EAF0] p-6 shadow-sm rounded-sm h-max">
+    <div className="relative priceInfo bg-white font-Inter flex flex-col md:w-[26.5rem] border-[1px] border-[#E9EAF0] p-6 shadow-sm h-max rounded-2xl">
       <header className="border-b-[#E9EAF0] border-b-[1px] p-6 flex flex-col gap-3">
         <div className="w-full flex gap-2 items-center">
           <h2 className="text-primaryColor text-2xl">$14.00</h2>
@@ -44,13 +44,17 @@ const PriceInfo = () => {
           <p className="text-[#6E7485]">English</p>
         </div>
       </div>
-      <div className="flex flex-col gap-4 border-b-[#E9EAF0] border-b-[1px] p-6">
-        <button className="h-14  bg-[#49BBBD] text-white text-[1.125rem] font-semibold">
-          Add To Cart
-        </button>
-
-        <button className="h-14  bg-[#FFEEE8] text-[#1612EE] text-[1.125rem] font-semibold">
-          Buy Now
+      <div className="flex flex-col gap-3 border-b-[#E9EAF0] border-b-[1px] p-6">
+        <div className="flex gap-6">
+          <button className="text-primaryBlue w-full rounded-xl px-[1rem] py-[12px] bg-white font-Roboto border-[1px] border-primaryBlue">
+            Add To Cart
+          </button>
+          <button className="text-primaryBlue w-full rounded-xl px-[1rem] py-[12px] bg-white font-Roboto border-[1px] border-primaryBlue">
+            Save
+          </button>
+        </div>
+        <button className="text-white rounded-xl px-[1rem] py-[12px] bg-primaryBlue font-Roboto">
+          Enroll Now
         </button>
       </div>
 
