@@ -87,7 +87,7 @@ const Course_details = () => {
           <div className="relative w-max md:pt-[4rem] flex md:flex-row flex-col gap-8">
             <div>
               <video
-                className=" shadow-lg md:w-[48.5rem] md:h-[36.4375rem] h-[10.5rem] w-[85%] md:m-0 m-auto rounded-lg"
+                className=" shadow-lg md:w-[48.5rem] md:h-[36.4375rem] h-[10.5rem] md:m-0 m-auto rounded-lg"
                 controls
               >
                 <source src="..Videos/video1.mp4" type="video/mp4" />
