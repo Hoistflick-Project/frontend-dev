@@ -12,6 +12,7 @@ import ContactUSPage from "./Pages/ContactUSPage";
 import Forgetpassword from "./Pages/Forgetpassword";
 import CoursesPage from "./Pages/CoursesPage";
 import Resources from "./Pages/resources/Resources";
+import Eachresourcesdetails from "./Pages/resources/Eachresourcesdetails";
 function App() {
   return (
     <div className="">
@@ -28,6 +29,7 @@ function App() {
           <Route path="/dashboard" element={<StudentDashboard />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/resources/:id" element={<Eachresourcesdetails />} />
           <Route path="/contact-us" element={<ContactUSPage />} />
         </Routes>
       </Router>
