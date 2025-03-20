@@ -13,6 +13,7 @@ import Forgetpassword from "./Pages/Forgetpassword";
 import CoursesPage from "./Pages/CoursesPage";
 import Resources from "./Pages/resources/Resources";
 import Eachresourcesdetails from "./Pages/resources/Eachresourcesdetails";
+import Events from "./Pages/events/Events";
 function App() {
   return (
     <div className="">
@@ -31,6 +32,7 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/:id" element={<Eachresourcesdetails />} />
           <Route path="/contact-us" element={<ContactUSPage />} />
+          <Route path="/events" element={<Events />} />
         </Routes>
       </Router>
     </div>
